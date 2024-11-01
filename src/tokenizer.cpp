@@ -1,4 +1,4 @@
-#include "../include/tokenizer.hpp"
+#include "../include/Tokenizer.hpp"
 
 Tokenizer::Tokenizer() {
     // Initializes word map of tokens ids

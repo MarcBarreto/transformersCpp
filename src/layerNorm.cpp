@@ -1,4 +1,4 @@
-#include "../include/layerNorm.hpp"
+#include "../include/LayerNorm.hpp"
 
 LayerNorm::LayerNorm(int model_dim) : model_dim(model_dim) {
     gamma.resize(model_dim, 0.001f);

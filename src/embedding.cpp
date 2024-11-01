@@ -1,4 +1,4 @@
-#include "../include/embedding.hpp"
+#include "../include/Embedding.hpp"
 
 Embedding::Embedding(int vocab_size, int embed_dim) {
     this->vocab_size = vocab_size;

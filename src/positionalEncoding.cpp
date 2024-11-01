@@ -1,4 +1,4 @@
-#include "../include/positionalEncoding.hpp"
+#include "../include/PositionalEncoding.hpp"
 
 PositionalEncoding::PositionalEncoding(int max_seq_len, int model_dim) : max_seq_len(max_seq_len), model_dim() {
     encoding_matrix.resize(max_seq_len, std::vector<double>(model_dim));
